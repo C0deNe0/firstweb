@@ -1,0 +1,246 @@
+* {
+    margin: 0px;
+    padding: 0;
+    
+}
+
+body {
+    display: flex;
+    border: 30px solid teal;
+    margin: 0px;
+    
+}
+
+
+
+.left {
+    /* border: 3px solid red; */
+    height: 100ewm;
+    width: 50%;
+    /* margin-right: 5px;  */
+    background-color: rgb(243, 237, 237);
+}
+
+.right {
+    /* border: 3px solid blue; */
+    height: 100ewm;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(243, 237, 237);
+
+
+}
+
+.navbar {
+    /* background-color: yellow; */
+    /* border: 5px solid pink; */
+    padding: 25px;
+    overflow: auto;
+
+
+}
+
+.navbar li {
+    list-style: none;
+    float: right;
+    padding: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 45px;
+    font-weight: 600;
+    margin-top: 9px;
+    /* position: relative; */
+
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(118, 109, 109);
+    font-weight: 700;
+    font-size: large;
+    transition: 0.2s;
+    
+}
+
+
+#shop {
+    color: rgb(28, 10, 45);
+    margin-left: 250px;
+}
+
+h1 {
+    background-color: aqua;
+    /* position: static;iq */
+    margin-top: 150px;
+    font-size: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.buttons {
+    margin: 17px;
+    color: aliceblue;
+    margin-bottom: 200px;
+    margin-top: 20px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#last {
+    padding: 13px 17px 13px 17px;
+    border-radius: 40px;
+    margin-right: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+#first {
+    padding: 13px 17px 13px 17px;
+    background-color: black;
+    border-radius: 40px;
+    margin-right: -16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#middle {
+    padding: 13px 17px 13px 17px;
+    color: rgb(36, 32, 32);
+    background-color: white;
+    border-radius: 40px;
+    margin-right: -10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#logo {
+    background-color: black;
+    /* border: 5px solid black; */
+    height: 50px !important;
+    margin: 50px;
+    position: relative;
+    left: 40px;
+    opacity: 3;
+}
+
+
+
+
+#cartlogo {
+    height: 27px;
+
+    width: 27px;
+    float: right;
+    position: relative;
+    right: 70px;
+    margin-top: 31px;
+}
+
+.box1 {
+    background-color: rgb(255, 255, 255);
+    height: 224.5px;
+    width: 215px;
+    border-radius: 0px 0px 48px 0px;
+    position: absolute;
+    left: 619px;
+    top: 30px;
+
+
+}
+
+.box2 {
+    background-color: aquamarine;
+    height: 350px;
+    width: 218px;
+    border-radius: 0px 48px 0px 0px;
+    position: absolute;
+    left: 619px;
+    bottom: 356px;
+
+}
+
+.box3 {
+    background-color: rgb(162, 154, 152);
+    background-image: url('/home/naveenhiremath/Desktop/website/photos/solo_leveling.jpg');
+    background-blend-mode: luminosity;
+    /*bro add a image in it */
+    height: 350px;
+    width: 216px;
+    border-radius: 48px 0px 40px 0px;
+    position: absolute;
+    left: 395px;
+    bottom: 356px;
+    background-position: 1px;
+
+    background-size: cover;
+
+    background-repeat: initial;
+    ba
+}
+
+.box3 .plus {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.circle {
+    background-color: rgb(241, 194, 194);
+    /* background-image: url('/photos/blackwaves.jpg'); */
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    position: absolute;
+    left: 607px;
+    border: 7px solid rgb(243, 237, 237);
+    bottom: 179px;
+
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.box4 {
+    background-color: rgb(26, 18, 62);
+    height: 135px;
+    width: 215px;
+    border-radius: 0px 0px 48px 0px;
+    position: absolute;
+    left: 395px;
+    bottom: 215px;
+}
+
+.box5 {
+    background-color: rgb(20, 18, 38);
+    background-blend-mode: lighten;
+    
+    background-image: url('/home/naveenhiremath/Desktop/website/photos/liquid.jpg');
+    height: 16%;
+    width: 215px;
+    border-radius: 0px 48px 0px 0px;
+    position: absolute;
+    left: 395px;
+    top: 760px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
